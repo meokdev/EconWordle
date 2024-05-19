@@ -2,12 +2,12 @@ const levels = [
     { word: "cargo", title: "Level 1", subtitle: "Clue: Goods transported, often complicated by landlocked status." },
     { word: "trade", title: "Level 2", subtitle: "Clue: What is hampered due to lack of sea access?" },
     { word: "rails", title: "Level 3", subtitle: "Clue: Important for moving goods inland." },
-    { word: "Nepal", title: "Level 4", subtitle: "Clue: The landlocked country in South Asia." },
+    { word: "nepal", title: "Level 4", subtitle: "Clue: The landlocked country in South Asia." },
     { word: "river", title: "Level 5", subtitle: "Clue: What is crucial for hydro-power in Nepal?" },
     { word: "ports", title: "Level 6", subtitle: "Clue: Needs good relations with these for trade." },
     { word: "roads", title: "Level 7", subtitle: "Clue: Necessary internal network for connectivity." },
-    { word: "India", title: "Level 8", subtitle: "Clue: South Asian neighbor important for trade." },
-    { word: "China", title: "Level 9", subtitle: "Clue: Northern neighbor with expanding trade routes." },
+    { word: "india", title: "Level 8", subtitle: "Clue: South Asian neighbor important for trade." },
+    { word: "china", title: "Level 9", subtitle: "Clue: Northern neighbor with expanding trade routes." },
     { word: "tolls", title: "Level 10", subtitle: "Clue: Charges for transportation can impact trade costs." }
 ];
 
