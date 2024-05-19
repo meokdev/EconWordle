@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econ Wordle</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+        }
+
+        .top-bar, .bottom-bar {
+            width: 100%;
+            background-color: #232323;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .description {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .description h2 {
+            margin: 0;
+        }
+
+        .description p {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        #start-button {
+            padding: 20px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #6aaa64;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <h1>Econ Wordle</h1>
+    </div>
+    <div class="content">
+        <div class="description">
+            <h2>Barriers to Economic Growth and Development</h2>
+            <p>There are 10 different levels, each corresponding to a key word related to the challenges of being landlocked. Good luck!</p>
+        </div>
+        <a href="game.html" id="start-button">Start Game</a>
+    </div>
+    <div class="bottom-bar">
+        <p>Made by Ian</p>
+    </div>
+</body>
+</html>

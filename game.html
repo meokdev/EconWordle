@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econ Wordle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-bar">
+        <h1>Econ Wordle</h1>
+    </header>
+    <div class="content">
+        <section class="description">
+            <h2 id="level-title">Level 1</h2>
+            <p id="level-subtitle">Subtitle or instructions/context can be added here.</p>
+            <div id="level-indicator">Level 1 of 3</div>
+        </section>
+        <div class="game-container">
+            <div id="board"></div>
+            <div id="keyboard"></div>
+            
+        </div>
+        <p id="message"></p>
+        <div id="victory-message" style="display: none;">
+            <h2>Congratulations! You completed all levels!</h2>
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
+    <footer class="bottom-bar">
+        <p>Made by Ian</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
