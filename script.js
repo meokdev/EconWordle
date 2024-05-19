@@ -4,11 +4,11 @@ const levels = [
     { word: "rails", title: "Level 3", subtitle: "Clue: Important for moving goods inland." },
     { word: "nepal", title: "Level 4", subtitle: "Clue: The landlocked country in South Asia." },
     { word: "river", title: "Level 5", subtitle: "Clue: What is crucial for hydro-power in Nepal?" },
-    { word: "ports", title: "Level 6", subtitle: "Clue: Needs good relations with these for trade." },
-    { word: "roads", title: "Level 7", subtitle: "Clue: Necessary internal network for connectivity." },
+    { word: "ports", title: "Level 6", subtitle: "Clue: Needs these for trade by sea" },
+    { word: "roads", title: "Level 7", subtitle: "Clue: Necessary infrastructure for domestic trade." },
     { word: "india", title: "Level 8", subtitle: "Clue: South Asian neighbor important for trade." },
     { word: "china", title: "Level 9", subtitle: "Clue: Northern neighbor with expanding trade routes." },
-    { word: "tolls", title: "Level 10", subtitle: "Clue: Charges for transportation can impact trade costs." }
+    { word: "tolls", title: "Level 10", subtitle: "Clue: Charges for transportation which can increase trade costs." }
 ];
 
 let currentLevel = localStorage.getItem('currentLevel') ? parseInt(localStorage.getItem('currentLevel')) : 0;
